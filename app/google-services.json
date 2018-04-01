@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "634678865741",
+    "firebase_url": "https://hikam1202150029modul6.firebaseio.com",
+    "project_id": "hikam1202150029modul6",
+    "storage_bucket": "hikam1202150029modul6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634678865741:android:0c3201e934d866a4",
+        "android_client_info": {
+          "package_name": "id.simplify.hikam_1202150029_modul6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634678865741-d7u288vsm1peq73fffjisee07tjb763g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.simplify.hikam_1202150029_modul6",
+            "certificate_hash": "c2e711b2c81e50fcb14fe64c8d6556a97ed09a42"
+          }
+        },
+        {
+          "client_id": "634678865741-bs1h2o4e1ppr49rv0ibu1hcie3b82sf3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfyvi5r7Yg_IaH8UNtaQ6pUfTz6TRI0lM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634678865741-bs1h2o4e1ppr49rv0ibu1hcie3b82sf3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

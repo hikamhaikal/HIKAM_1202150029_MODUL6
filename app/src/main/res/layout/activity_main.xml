@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.simplify.hikam_1202150029_modul6.MainActivity">
+
+    <EditText
+        android:id="@+id/inuser"
+        android:layout_width="288dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="95dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inpassw"
+        android:layout_width="286dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inuser" />
+
+    <Button
+        android:id="@+id/loginbut"
+        android:layout_width="115dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="40dp"
+        android:text="Login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inpassw"
+        android:onClick="trylogin"/>
+
+    <Button
+        android:id="@+id/daftarbut"
+        android:layout_width="126dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="Daftar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/loginbut"
+        app:layout_constraintTop_toBottomOf="@+id/inpassw"
+        android:onClick="trydaftar"/>
+</android.support.constraint.ConstraintLayout>
